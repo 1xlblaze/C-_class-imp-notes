@@ -1,1 +1,2 @@
-# C-_class-imp-notes
+# C++
+This repo carries class in C++ concepts
