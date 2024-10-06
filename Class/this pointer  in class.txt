@@ -1,0 +1,4 @@
+The this pointer is passed to every non-static member function to let the function know which object's data members it should access or modify.
+The type of this in non-static member functions is X* const, meaning it's a constant pointer to the current object.
+In const member functions, this is const X* const, meaning it's a constant pointer to a constant object (so the function cannot modify the object).
+Static member functions do not have a this pointer because they are not associated with any particular object.
